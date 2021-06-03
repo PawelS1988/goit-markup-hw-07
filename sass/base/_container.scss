@@ -3,4 +3,34 @@
   padding: 0 15px;
   align-items: center;
   margin: 0 auto;
+
+  .header &,
+  .pros &,
+  .filters &,
+  .portfolio {
+    display: flex;
+  }
+
+  .ourclients & {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .solutions & {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .team .ourteam & {
+    display: flex;
+  }
+
+  .whatwedo .whatwedo-div & {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
